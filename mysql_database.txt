@@ -1,0 +1,38 @@
+####CRUD 
+Overview : Create[insert], Read[select], Update, Delete. 
+
+//Create : insert query
+syntax = insert into table_name (`field1`, `field2`) values ('data1','data2')
+example = insert into user (`u_name`,`u_pwd`) values ('arshita','1234');
+
+//Read : Select query []
+syntax = select * from table_name where [condition]
+example = select * from user where u_name = 'riya';
+
+//Update query
+syntax = update table_name set `field`='data1' where field='data1'
+example = update user set `u_name`='riya' where `u_id`='1';
+
+//Delete query
+syntax = delete from tablename where `field`='data'
+example = delete from `user` where `u_id`='1';
+
+
+
+####Sql joins
+Overview : It's used for join multiple tables with each other. 
+
+//Inner join
+
+//left join
+
+//right join
+
+//full join
+
+
+
+
+
+
+
